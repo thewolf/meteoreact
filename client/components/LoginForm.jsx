@@ -3,7 +3,7 @@ LoginForm = React.createClass({
     componentDidMount: function() {
         console.log('LoginForm mounted');
 
-        $(this.refs.checky.getDOMNode()).checkbox();
+        $(this.refs.rememberMe.getDOMNode()).checkbox();
     },
 
    render: function() {
@@ -22,7 +22,7 @@ LoginForm = React.createClass({
                </div>
 
                <div className="inline field">
-                   <div ref="checky" className="ui checkbox">
+                   <div ref="rememberMe" className="ui checkbox">
                        <input type="checkbox"/>
                        <label>Remember me</label>
                    </div>
