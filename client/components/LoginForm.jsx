@@ -1,3 +1,9 @@
+/**
+ * This directive is necessary to enable prepossessing of JSX tags:
+ * @jsx React.DOM
+ */
+
+
 LoginForm = React.createClass({
 
     componentDidMount: function() {

@@ -8,3 +8,5 @@ meteor-platform
 react
 less
 semantic:ui-css
+iron:router
+react-template-helper

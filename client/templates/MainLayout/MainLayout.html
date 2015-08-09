@@ -1,0 +1,32 @@
+<template name="MainLayout">
+    <head>
+        <title>hello</title>
+
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta name="MobileOptimized" content="width"/>
+    </head>
+
+    <body>
+
+    <div class="ui stackable one column center aligned grid">
+
+        <div class="row">
+            <div class="row column six wide">
+
+                {{> TopNav }}
+            </div>
+        </div>
+
+        <div class="column six wide form-holder">
+
+
+            <div class="ui divider"></div>
+
+            {{> yield }}
+
+        </div>
+    </div>
+
+    </body>
+</template>
